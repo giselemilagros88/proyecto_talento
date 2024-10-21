@@ -1,0 +1,143 @@
+/*import de google fonts*/
+* {
+    font-family: "Fira Sans Condensed", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(255, 250, 242);
+}
+h1{
+    padding-top:30px;
+    color: #510d1b;
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    color: #510d1b;
+    font-size: 2rem;
+    text-align: center;
+}
+/*Header*/
+.header{
+    background-color: rgba(145, 142, 135, 0.541);
+    font-size: 10px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    .logo{
+        width: 100px;
+    }
+    nav{
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                margin-right: 15px;
+                a{
+                    text-decoration: none;
+                    color:  #510d1b;
+                    font-size: 2em;
+                  
+                }
+            }
+           
+        }
+    }
+}
+
+/*Estilos seccion principal del index*/
+.principalIndex{
+    background-image: url("../assets/img/mascotas_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh;
+    text-align: center;
+    .contenedorTextoPrincipalIndex{
+        margin:0 auto;
+        margin-top: 30px;
+        border:2px solid  #510d1b;
+        padding:10px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50%;
+        font-size: 10px;
+        color: rgb(28, 27, 27);
+        /*propiedades blur y backdrop-blur*/
+       /* filter: blur(10px) brightness(0.5);*/
+        backdrop-filter: blur(15px);
+     
+     
+        p{
+            font-size: 2.5em;
+        }
+        a{
+            display:inline-block;
+            margin-top:20px;
+            text-decoration: none;
+            color: rgb(28, 27, 27);
+            font-size: 2.5em;
+            border:2px solid black;
+            padding:8px;
+            border-radius:5px;
+            box-shadow: -10px 0px 35px 12px rgba(0,0,0,0.66);
+
+        }
+    }
+   
+}
+
+/*productos Destacados*/
+.productosDestacados{
+    img{
+       width: 200px;
+    }
+}
+
+/*footer*/
+
+.footer{
+    background-image: radial-gradient(circle, #e592a2, #e59caa, #e5a6b2, #e5afba, #e5b9c2, #e5b9c2, #e5b9c2, #e5b9c2, #e5afba, #e5a6b2, #e59caa, #e592a2);
+    font-size: 10px;
+    .logo{
+        width: 100px;
+    }
+    ul{
+        list-style: none;
+      
+        a{
+            text-decoration: none;
+            color:  #510d1b;
+            font-size: 1.5em;
+        }
+        .fa-instagram, .fa-facebook, .fa-twitter{
+            font-size: 3em;
+        }
+    }
+    .fa-whatsapp{
+        font-size: 5em;
+        color:rgb(44, 181, 44);
+        position:fixed;
+        bottom: 20px;
+        right: 20px;
+       
+    }
+    p{
+        font-size: 1.5em;
+      
+    }
+
+}
+
+/*COMO CREO UN DIV REDONDO,
+
+TIENE QUE SER CUADRADO, 200 X 200 
+border-radius:50%;
+
+
+
+
+*/
